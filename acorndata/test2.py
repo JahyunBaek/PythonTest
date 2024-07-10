@@ -209,3 +209,33 @@ pp(d)
 s = {3, 5, 7}
 
 print(type(s))
+
+
+s = set([1,3,5,7])
+
+print(s)
+
+s.add(11)
+
+print(s)
+
+s.remove(5)
+
+print(s)
+
+
+
+print(s)
+
+
+for se in s:
+    print(se)
+
+l = list(range(0,5))
+print(l)
+print(range(10))
+
+print(range(0,10,2))
+
+
+
