@@ -12,3 +12,13 @@ def is_prime(x):
 
 print(is_prime(5))
 print(is_prime(8))
+
+
+thousand_primes = islice((x for x in count() if is_prime(x)),1000)
+
+
+print(next(thousand_primes))
+
+print(next(thousand_primes))
+
+print(next(thousand_primes))
